@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This is form.</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <header></header>
@@ -15,8 +21,58 @@
                     <input id="name" placeholder="Your name">
                 </label>
                 <label for="email"> Your Email:
-                    <input id="email" placeholder="email">
+                    <input id="email" placeholder="Your email">
                 </label>
+                <label for="number">Your Phone number:
+                    <input id="number" placeholder="Your number">
+                </label>
+
+                <fieldset>
+                    <legend>Pick One Tree</legend>
+                    <label for="chitoy">
+                        <input 
+                        type="radio"
+                        name="pitha"
+                        id="chitoy"
+                        >
+                        Chitoy
+                    </label>
+                    
+                    <label for="vapapitha">
+                        <input 
+                        name="pitha"
+                        id="vapapitha"
+                        type="radio">
+                        Vapapitha
+                    </label>
+
+                    <label for="nunpuri">
+                        <input 
+                        name="pitha"
+                        id="nunpuri"
+                        type="radio">
+                        Nunpuri
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pick One Question</legend>
+                    <label for="sorisa">
+                        <input type="checkbox" name="vorta" id="vorta">
+                        sorisa
+                    </label>
+
+                    <label for="achar">
+                        <input type="checkbox" name="vorta" id="achar">
+                        achar
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="text"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
             </form>
         </section>
     </main>
