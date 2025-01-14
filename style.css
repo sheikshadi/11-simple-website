@@ -1,5 +1,12 @@
-div{
-    background-color: tomato;
-    padding: 10px;
-    margin-bottom: 10px;
+nav > ul > li{
+    display: inline;
+    margin-right: 10px;
+}
+li a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
 }
